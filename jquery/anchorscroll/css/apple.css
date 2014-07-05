@@ -1,0 +1,33 @@
+div.cto div.slider-content{
+position:absolute;
+right:0;
+top:-10px;
+width:169px;
+height:100%;
+overflow:visible;
+padding-bottom:20px;
+}
+
+div.cto div#secondary{
+float:none;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+	
+div.cto div.pinned_top div#secondary{
+position:absolute;
+top:0;
+right:0;
+}
+
+div.cto div.floating div#secondary{
+position:fixed;
+top:0;
+}
+
+div.cto div.pinned_bottom div#secondary{
+position:absolute;
+bottom:0;
+right:0;
+}

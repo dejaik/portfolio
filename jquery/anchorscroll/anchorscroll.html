@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Anchor Animated Smooth Scroll jQuery Plugin</title>
+<script src="script/jquery-1.4.js" type="text/javascript"></script>
+<script src="script/jquery.animate.js" type="text/javascript"></script>
+<script src="script/jquery.anchorScroll.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript">
+
+  $(document).ready(function() {
+	
+	//Default	
+	$("#link1").anchorScroll();
+	
+	//Custom FX	
+	$("#link2").anchorScroll({fx: "easeOutBounce"});
+	
+	
+	//To scroll without clicking a link 
+	//use this
+	//var destination = $("#box2Container").offset().top;
+	//$("html,body").animate({ scrollTop: destination},"easeInQuad");
+	
+
+  });
+ </script>
+</head>
+<body>
+<div id="container">
+<h1>Anchor Animated Smooth Scroll jQuery Plugin</h1><br />
+
+<a id="link1" href="#box1">Click to scroll (Smooth)</a>
+
+<a id="link2" href="#box2">Click to scroll (Bounce)</a>
+
+<br /><br />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+   <br />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+   <br />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+   <br />
+<p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>  
+   <br />
+   
+  <p id="box1"><b>First link will scroll to here</b></p> 
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+
+<br />
+  <p id="box2"><b>Second link will scroll to here</b></p> 
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  <br />
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam fringilla, purus a ultrices blandit,
+  odio ante scelerisque neque, vitae imperdiet odio velit ac nisl. Sed tortor metus, placerat condimentum,
+  feugiat in, feugiat adipiscing, mi. Donec pulvinar sem vitae leo. Vestibulum eget lectus et ligula hendrerit
+  pharetra. Sed porta justo ac nisl. Aliquam nisi erat, pellentesque sed, sagittis eu, fringilla sit amet,
+  dolor. Nam ac mi. Pellentesque pede purus, mattis aliquet, semper nec, cursus a, orci. Duis bibendum nibh
+  ac massa. Integer eu tortor. Aenean convallis quam at nunc. Nunc mollis tincidunt nisi. Suspendisse mauris
+  odio, iaculis ut, feugiat vitae, ultrices in, tortor. Quisque at elit. In hac habitasse platea dictumst.</p>
+  
+</div>
+</body>
+</html>
